@@ -1,0 +1,44 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore environment configuration files
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore compiled files
+*.egg
+*.egg-info
+dist/
+build/
+
+# Ignore package distribution files
+*.tar.gz
+*.zip
+
+# Ignore files created by IDEs
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore data files that should not be tracked
+*.csv
+*.pkl
+
+# Ignore specific files related to spam_detector (if needed)
+spam_detector_*
